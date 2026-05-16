@@ -1,72 +1,46 @@
 # ikehabsngasuki
 
-エンジニア職を目指して、Webアプリケーション開発と自動化ツールの実装を中心に学習・開発しています。
-ユーザーが使える形まで作り切ること、実装した内容を再現しやすく整理することを意識しています。
+Webアプリケーション開発と業務自動化を中心に、実際の課題を小さく動くプロダクトへ落とし込むことを意識して開発しています。
+
+現在はエンジニア職を目指し、バックエンド、外部サービス連携、データ管理、README整備まで含めて「第三者が使える状態」にする力を伸ばしています。
 
 ## Focus
 
-- Webアプリケーション開発
-- API・バックエンド実装
-- 外部サービス連携
-- AIを活用した業務効率化・情報収集ツール
+- Python / FastAPI / Flask を使ったWebアプリケーション開発
+- LINE Bot、外部API、スケジューラーを組み合わせた自動化
+- CSV / Excel / SQLite を扱う業務向けデータ管理
+- README、セットアップ手順、データ方針を含めた公開用リポジトリ整備
 
 ## Tech Stack
 
-### Languages
-
-- JavaScript / TypeScript
-- Python
-- HTML / CSS
-
-### Frameworks & Tools
-
-- React / Next.js
-- Node.js
-- Git / GitHub
-- Docker
-- GitHub Actions
+| Area | Tools |
+| --- | --- |
+| Backend | Python, FastAPI, Flask, SQLAlchemy |
+| Frontend | HTML, CSS, JavaScript |
+| Data | SQLite, pandas, CSV, Excel |
+| Automation | LINE Messaging API, APScheduler, external APIs |
+| Dev / Deploy | Git, GitHub, GitHub Actions, Docker, Render / Procfile |
 
 ## Featured Projects
 
-### [ai-news-line-bot](https://github.com/ikehabsngasuki/ai-news-line-bot)
-
-AI関連ニュースを扱うLINE Botプロジェクトです。
-外部APIやメッセージングサービスとの連携を通じて、情報取得からユーザーへの通知までの流れを実装しています。
-
-- LINE Bot / 外部API連携
-- 情報収集・通知処理
-- 実用を意識した自動化ツール
-
-### [trysystem_v1](https://github.com/ikehabsngasuki/trysystem_v1)
-
-個別指導塾の運用を想定した基幹システムです。
-生徒・講師のデータベースを中心に、授業管理や講師割り当てなど、各種実務をWebアプリ上で扱えるようにしています。
-
-- 生徒・講師データベース
-- 授業予定・担当講師管理
-- CSV / Excelからの初期データ取り込み
-
-### [--app-3](https://github.com/ikehabsngasuki/--app-3)
-
-英単語テストを生成するWebアプリです。
-単語帳を選択し、問題数や出題形式を指定して、印刷用の問題PDFと解答PDFを作成できます。
-
-- Excel形式の単語リスト管理
-- 出題範囲・問題数・形式の指定
-- 問題PDF / 解答PDFの生成
+| Project | What it does | Tech / Scope |
+| --- | --- | --- |
+| [AI News LINE Bot](https://github.com/ikehabsngasuki/ai-news-line-bot) | AI技術ニュースを収集し、LINEで毎日配信するBot。お気に入り、配信時間、カテゴリ、言語設定などのユーザー別設定を扱います。 | FastAPI, LINE Messaging API, SQLAlchemy, APScheduler, RSS / external APIs |
+| [trysystem_v1](https://github.com/ikehabsngasuki/trysystem_v1) | 個別指導塾の運用を想定した基幹システム。生徒・講師・授業予定・担当講師変更など、実務データの管理をWebアプリ化しています。 | FastAPI, SQLite, pandas, CSV / Excel import |
+| [英単語テストPDFジェネレーター](https://github.com/ikehabsngasuki/--app-3) | Excel形式の単語リストから、出題範囲・問題数・形式を指定して問題PDFと解答PDFを生成するWebアプリです。 | Flask, pandas, ReportLab, file upload, S3-compatible storage |
 
 ## What I Care About
 
-- 読みやすく保守しやすいコードを書くこと
-- READMEやセットアップ手順を整えて、第三者が理解しやすい状態にすること
-- 小さく作って動かしながら改善すること
-- 実際の課題解決につながる機能を作ること
+- まず動く形にして、使いながら改善すること
+- 実装だけでなく、セットアップ・データ方針・READMEまで整えること
+- 個人情報や教材データなど、公開リポジトリに含めるべきでない情報を分離すること
+- 業務フローを観察し、手作業を減らせる機能へ落とし込むこと
 
 ## Currently Working On
 
-- 代表プロジェクトのREADME整備
-- ポートフォリオとして見せられるWebアプリの改善
+- 代表プロジェクトのREADMEと公開用データ方針の整備
 - API設計、認証、データベース設計の学習
+- 業務で使える小規模Webアプリと自動化ツールの改善
 
 ## Contact
 
